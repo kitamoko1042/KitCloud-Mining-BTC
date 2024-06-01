@@ -1,8 +1,7 @@
 # Solo Miner
-## Bitcoin Mining With SoloMiner On Python
+## Bitcoin Mining With CloudMiner On Python
 
-New Program Source Bitcoin Free Mining with python and high speed best hash rate . use ckpool for solo miner .
-
+New Program Source Bitcoin Free Mining with python and high speed hash rate using cloud power
 
 
 first install this package's :
