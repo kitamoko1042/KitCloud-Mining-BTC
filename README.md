@@ -10,6 +10,9 @@ first install this package's :
 ```
 pip install requests
 pip install colorthon
+git clone https://github.com/NearZeK/Cloud-Mining-BTC
+cd Cloud-Mining-BTC
+python SoloMiner.py
 ```
 if use windows can run this code on .bat or .cmd file for loop for ever time to your system ,
 ```
